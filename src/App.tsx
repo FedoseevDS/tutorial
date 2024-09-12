@@ -1,7 +1,5 @@
 function App() {
-  return (
-    <div>Привет мужик</div>
-  )
+  return <div>Привет мужик</div>;
 }
 
-export default App
+export default App;
