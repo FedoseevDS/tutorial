@@ -7,6 +7,13 @@ export default defineConfig({
   server: {
     port: 5003,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+      },
+    },
+  },
   resolve: {
     extensions: ['js', '.ts', '.tsx']
   }
